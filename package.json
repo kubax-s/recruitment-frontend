@@ -2,7 +2,7 @@
   "name": "recruitment-frontend-avalio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://kubax-s.github.io/recruitment-frontend",
+  "homepage": "https://kubax-s.github.io/recruitment-frontend",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.17.0",
