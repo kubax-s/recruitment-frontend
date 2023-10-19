@@ -1,5 +1,7 @@
+@import 'variables';
+
 .header {
-    background: #02231f;
+    background: $primaryColor;
     padding: 0px 64px;
     height: 80px;
     display: flex;
@@ -12,14 +14,14 @@
         width: 132px;
     }
     h1 {
-        color: #EEEFE2;
+        color: $secondaryColor;
         text-transform: uppercase;
         margin: 12px 0;
         font-weight: bold;
         line-height: 150%;
         white-space: nowrap;
     }
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 600px) {
         flex-direction: column;
         height: 120px;
         img {

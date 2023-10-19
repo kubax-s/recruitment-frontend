@@ -1,6 +1,11 @@
+@import 'variables';
+
 .content {
-    min-height: calc(100vh - 2 * 80px);
-    @media screen and (max-width: 992px) {
-        min-height: calc(100vh - 80px - 120px)
+    min-height: calc(100vh - 2 * 80px - 2 * 32px);
+    padding: 32px;
+    background-color: $secondaryColor;
+    @media screen and (max-width: 600px) {
+        min-height: calc(100vh - 80px - 120px - 2 * 16px);
+        padding: 16px;
     }
 }

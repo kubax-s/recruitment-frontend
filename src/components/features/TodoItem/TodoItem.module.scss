@@ -1,0 +1,31 @@
+@import 'variables';
+
+.item {
+    background-color: $primaryColor;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 12px 24px;
+    border-radius: 18px;
+    gap: 12px;
+    box-sizing: border-box;
+    opacity: 1;
+    transform: 500ms all ease;
+    &.completed {
+        opacity: .25;
+    }
+    span {
+        margin-right: 12px;
+        color: $secondaryColor;
+        word-break: break-all;
+    }
+    div {
+        display: flex;
+        align-self: flex-end;
+        gap: 12px;
+    }
+
+    @media screen and (min-width: 601px) {
+        height: 160px;
+    }
+}

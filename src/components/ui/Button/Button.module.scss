@@ -1,0 +1,39 @@
+@import 'variables';
+
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    &.primary {
+        background-color: $primaryColor;
+        color: $secondaryColor;
+        border-color: $secondaryColor;
+        transition: 500ms all ease;
+        &:hover {
+            background-color: $secondaryColor;
+            color: $primaryColor;
+            border-color: $primaryColor;    
+        }
+    }
+    &.secondary {
+        background-color: $secondaryColor;
+        color: $primaryColor;
+        border-color: $primaryColor;
+        transition: 500ms all ease;
+        &:hover {
+            background-color: $primaryColor;
+            color: $secondaryColor;
+            border-color: $secondaryColor;
+        }
+    }
+}
