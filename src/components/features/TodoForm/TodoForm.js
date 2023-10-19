@@ -21,20 +21,20 @@ const TodoForm = () => {
 
     return (
         <>  
-            <Button onClick={openModal}>
+            <Button onClick={openModal} data-testid="open-modal">
                 <FaPlus />
             </Button>
             { isOpen && (
                 <div className={styles.mask}>
-                    <div className={styles.modal}>
+                    <div className={styles.modal} data-testid="modal">
                         <form className={styles.form} onSubmit={handleSubmit}>
-                            <TextInput onChange={e => setValue(e.target.value)} placeholder="Add new task..." value={value}/>
-                            <Button secondary={true} type="submit">
+                            <TextInput onChange={e => setValue(e.target.value)} placeholder="Add new task..." value={value} data-testid="text-input" />
+                            <Button secondary={true} type="submit" data-testid="submit-button">
                                 <FaPlus />
                             </Button>
                         </form>
                         <div className={styles.close}>
-                            <Button onClick={closeModal}>
+                            <Button onClick={closeModal} data-testid="close-modal">
                                 <FaXmark />
                             </Button>
                         </div>
