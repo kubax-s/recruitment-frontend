@@ -1,0 +1,29 @@
+.header {
+    background: #02231f;
+    padding: 0px 64px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+    img {
+        width: 132px;
+    }
+    h1 {
+        color: #EEEFE2;
+        text-transform: uppercase;
+        margin: 12px 0;
+        font-weight: bold;
+        line-height: 150%;
+        white-space: nowrap;
+    }
+    @media screen and (max-width: 992px) {
+        flex-direction: column;
+        height: 120px;
+        img {
+            margin-top: 12px;
+        }
+    }
+}
