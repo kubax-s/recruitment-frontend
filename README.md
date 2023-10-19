@@ -1,5 +1,5 @@
 
-[Link](https://kubax-s.github.io/recruitment-frontend)
+[LIVE APP](https://kubax-s.github.io/recruitment-frontend)
 
 ___
 ## Instalacja:
