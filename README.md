@@ -3,16 +3,18 @@
 
 ___
 ## Instalacja:
-
+```
 1. git clone https://github.com/kubax-s/recruitment-frontend.git
+```
 ```
 2. npm install
 ```
+```
 3. npm start
 ```
-
 Aby uruchomić testy - npm test
-```
+
+
 ___
 
 # Zadanie rekrutacyjne
